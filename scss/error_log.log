@@ -1,0 +1,4 @@
+03/10/24 4:34:04: main.scss - Undefined variable $sideMargin: _mixins.scss on line 330, at column 3
+Call Stack:
+#0 mixin GridGap components/pages.scss on line 110
+#1 import components/pages.scss main.scss on line 49
