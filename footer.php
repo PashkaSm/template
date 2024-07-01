@@ -1,7 +1,7 @@
 </div>
 <footer>
 <div class="wrap">
-	<a href="<?php echo site_url(); ?>/" id="logo">
+	<a href="<?php echo site_url(); ?>/" id="logo-footer">
 		<img src="<?php echo theme(); ?>/img/logo.svg" alt="logo">
 	</a>
 	<?php
