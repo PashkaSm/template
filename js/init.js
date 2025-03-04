@@ -7,15 +7,15 @@ $(document).ready(function () {
     //     disableOnMobile: false
     // });
     // $('.datepicker').pickadate();
-    // AOS.init({
-    //     offset: 0,
-    //     duration: 350,
-    //     easing: 'ease-in-out-quart',
-    //     delay: 0,
-    //     once: true,
-    //     disable: 'mobile',
-    //     anchor: 'top-bottom'
-    // });
+    AOS.init({
+        offset: 0,
+        duration: 350,
+        easing: 'ease-in-out-quart',
+        delay: 0,
+        once: true,
+        disable: 'mobile',
+        anchor: 'top-bottom'
+    });
     // AOS.init({
     //     once: true,
     //     disable: 'mobile',
