@@ -20,6 +20,11 @@ function my_theme_register_required_plugins() {
 			'required' => true,
 		),
 		array(
+			'name'     => 'Flexible Layout Preview Image for ACF',
+			'slug'     => 'flexible-layout-preview-image-for-acf',
+			'required' => false,
+		),
+		array(
 			'name'     => 'Classic Editor',
 			'slug'     => 'classic-editor',
 			'required' => false,
@@ -94,17 +99,17 @@ function my_theme_register_required_plugins() {
 			'slug'     => 'breadcrumb-navxt',
 			'required' => false,
 		), */
-		/* array(
+		array(
 			'name'     => 'Yoast SEO',
 			'slug'     => 'wordpress-seo',
 			'required' => false,
-		), */
+		), 
 	
-		array(
-			'name'     => 'Redirection',
-			'slug'     => 'redirection',
-			'required' => false,
-		),
+		// array(
+		// 	'name'     => 'Redirection',
+		// 	'slug'     => 'redirection',
+		// 	'required' => false,
+		// ),
 		// array(
 		// 	'name'     => 'Simple Sitemap',
 		// 	'slug'     => 'simple-sitemap',
